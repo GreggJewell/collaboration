@@ -159,4 +159,5 @@ stopButton.place(x=144, y=200,width=110)
 broadcastInfo.place(x=20,y=250,height=200,width=500)
 footer.place(relx=0.5, anchor=CENTER, y=585,height=30,width=1000)
 DREDHeader.place(x=620,y=90)
+
 root.mainloop()
