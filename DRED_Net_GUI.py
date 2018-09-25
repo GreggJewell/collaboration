@@ -146,10 +146,7 @@ loadFile = Button(font=('sans serif',11),bg='#ffffff',highlightthickness=1,borde
 startButton = Button(text="Start Scenario",font=('sans serif',11),fg=buttonFGcolor,bg=buttonBGcolor,highlightthickness=1,borderwidth=1,command=lambda: StartScenario(),state=DISABLED)
 stopButton = Button(text="Stop Scenario",font=('sans serif',11),fg=buttonFGcolor,bg=buttonBGcolor,highlightthickness=1,borderwidth=1,command=lambda: StopScenario(),state=DISABLED)
 broadcastInfo = Label(text="",font=('sans serif',11),fg='#ffffff',bg='#161616',bd=1,relief=FLAT,anchor=NW,justify=LEFT,highlightthickness=5)
-
 DREDHeader = Label(text="DRED Statuses",font=('sans serif',16,'bold'),fg='#000000',bg=windowBGcolor)
-
-
 footer = Label(bg='#2d2d2d')
 
 # GUI LAYOUT
