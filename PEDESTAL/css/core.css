@@ -59,7 +59,8 @@ h1,h2,h3,h4,h5,h6 {
 /* Header */
 
 header {
-	background-color: #1f2b32;
+	//background-color: #1f2b32;
+	background-color: #182026;
 	color: #F5F8FA;
 	cursor: default;
 	flex: 0 0 auto;
@@ -107,7 +108,7 @@ header #navigation a:hover {
 
 header #navigation .pipe {
 	align-items: center;
-	color: #30404D;
+	color: #202B33;
 	display: flex;
 	font-size: 36px;
 	font-weight: 100;
@@ -132,8 +133,8 @@ header #navigation .pipe {
 
 #search-bar input[type=text] {
 	align-items: center;
-	background-color: #182026;
-	border: solid 1px #10161A;
+	background-color: #293742;
+	border: solid 1px #182026;
 	border-radius: 10px;
 	color: #F5F8FA;
 	display: flex;
@@ -145,11 +146,18 @@ header #navigation .pipe {
 }
 #search-bar input[type=text]:active, #search-bar input[type=text]:focus {
 	outline: none;
-	border: solid 1px #48AFF0;
+	//border: solid 1px #48AFF0;
+	-webkit-box-shadow: 0px 0px 2px 2px #48AFF0;
+	box-shadow:  0px 0px 2px 2px #48AFF0;
+    -webkit-appearance: none;
 }
 #search-bar input[type=text]:active + #search-bar-img svg path, #search-bar input[type=text]:focus + #search-bar-img svg path {
 	fill: #F5F8FA;
 }
+::-webkit-input-placeholder { color: #738694;}
+::-moz-placeholder { color: #738694; }
+:-ms-input-placeholder { color: #738694; }
+:-moz-placeholder { color: #738694; }
 
 #search-bar-img {
 	position: absolute;
