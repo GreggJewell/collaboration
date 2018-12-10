@@ -1,0 +1,231 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body { overflow: hidden; }
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#content {
+	position: absolute;
+	left: 50%;
+	top: 20%;
+	top: 20%;
+	color: #fff;
+	font-family: proxima-nova,sans-serif;
+	font-size: 96px;
+	font-weight: 700;
+	height: 200px;
+	width: 650px;
+	margin-left: -325px;
+	text-align: center;
+	background: rgba(0,0,0,0);
+}
+
+#title {
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#title img {
+	align-self: center;
+}
+
+#base {
+  width: 650px;
+  height: 170px;
+  background-image: url(pedestal.png);
+  background-repeat: no-repeat; 
+  background-position: center bottom;
+  opacity: 0;
+}
+
+#login {
+	color: #fff;
+	font-size: 36px;
+	font-weight: 300;
+	position: absolute;
+	top: 120px;
+	left: 50%;
+	margin-left: -300px;
+	width: 600px;
+}
+
+button {
+	color: #fff;
+	font-family: inherit;
+	font-size: 24px;
+	font-weight: 300;
+	background: #293742;
+	background: rgba(19,124,189,0.5);
+	padding: 5px 10px 5px 10px;
+	border: solid 1px #fff;
+	border-radius: 3px;
+	width: 186px;
+	-moz-transition: ease-out 0.3s;
+	-webkit-transition: ease-out 0.3s;
+	transition: ease-out 0.3s;
+}
+
+button:hover {
+	color: #000;
+	background: #fff;
+	cursor: pointer;
+}
+button:active, button:focus {
+	outline: none;
+}
+
+footer {
+	position: fixed;
+	bottom: 5px;
+	font-family: proxima-nova, sans-serif;
+	font-size: 10px;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+}
+
+/*=== Trigger  ===*/
+.animate {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+.animatelong {
+  animation-duration: 5s;
+  animation-fill-mode: both;
+}
+ 
+/*=== Optional Delays, change values here  ===*/
+.one {animation-delay: 0.3s;}
+.two {animation-delay: 1.5s;}
+.three {animation-delay: 3.0s;}
+ 
+/*=== Animations start here  ===*/
+/*==== FADE IN UP ===*/
+@-webkit-keyframes fadeInUp {
+  0% {
+		opacity: 0;
+		transform: translate3d(0, 80%, 0);
+	}
+	20% {
+		opacity: 1;
+		transform: none;
+	}
+	40% {
+		opacity: 1;
+		transform: none;
+	}
+	70% {
+		opacity: 0;
+		transform: none;
+	}
+	100% {
+		opacity: 0;
+		transform: none;
+	}
+}
+@keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		//transform: translate3d(0, 80%, 0);
+	}
+	20% {
+		opacity: 1;
+		transform: none;
+	}
+	40% {
+		opacity: 1;
+		transform: none;
+	}
+	70% {
+		opacity: 0;
+		transform: none;
+	}
+	100% {
+		opacity: 0;
+		transform: none;
+	}
+}
+ 
+.fadeInUp {animation-name: fadeInUp;}
+
+/*==== FADE IN ===*/
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+ 
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+/*==== FADE IN ADD TITLE ===*/
+@-webkit-keyframes fadeInAdd {
+  0% {opacity: 0.1;}
+  100% {opacity: 1;}
+}
+@keyframes fadeInAdd {
+  0% {opacity: 0.1;}
+  100% {opacity: 1;}
+}
+ 
+.fadeInAdd {
+  animation-name: fadeInAdd;
+}
+
+/*==== FADE IN BG ===*/
+@-webkit-keyframes fadeInBG {
+  from {background: rgba(0,0,0,0);}
+  to {background: rgba(0,0,0,0.4);}
+}
+@keyframes fadeInBG {
+  from {background: rgba(0,0,0,0);}
+  to {background: rgba(0,0,0,0.4);}
+}
+ 
+.fadeInBG {
+  animation-name: fadeInBG;
+}
+
+/*==== FADE IN Img ===*/
+@-webkit-keyframes fadeInImg {
+  0% {width: 0px;}
+  100% {width: 86px;}
+}
+@keyframes fadeInImg {
+  0% {width: 0px;}
+  100% {width: 86px;}
+}
+ 
+.fadeInImg {
+  animation-name: fadeInImg;
+}
+
+/*==== FADE OUT ===*/
+@-webkit-keyframes fadeOut {
+  from {opacity: 1;}
+  to {opacity: 0;}
+}
+@keyframes fadeOut {
+  from {opacity: 1;}
+  to {opacity: 0;}
+}
+ 
+.fadeOut {
+  animation-name: fadeOut;
+}
