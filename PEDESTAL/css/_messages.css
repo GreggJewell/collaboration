@@ -3,6 +3,8 @@
 	background-color: #294f69;
 	color: #F5F8FA;
 	display: flex;
+	height: auto;
+	overflow: hidden;
 	padding: 10px;
 	border-radius: 5px;
 	margin-bottom: 5px;

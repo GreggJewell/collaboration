@@ -7,6 +7,7 @@
 .fill-hover-lt-gray5:hover { fill: #F5F8FA; }
 .fill-hover-lt-gray5:hover path { fill: #F5F8FA; }
 
+.hover-highlight:hover { box-shadow: inset 0px 0px 1px 1px rgba(255,255,255,0.2); }
 
 .color-text-default:hover { color: #F5F8FA; }
 

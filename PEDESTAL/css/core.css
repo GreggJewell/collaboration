@@ -18,6 +18,7 @@
 a {
 	color: #48aff0;
 	text-decoration: none;
+	transition: 0.3s;
 }
 
 body {
@@ -259,6 +260,7 @@ header #user-controls #notifications:hover, header #user-controls #user-settings
 
 .widget {
 	color: #F5F8FA;
+	cursor: default;
 	display: flex;
 	background-color: #394B59;
 	border-radius: 5px;
@@ -271,7 +273,6 @@ header #user-controls #notifications:hover, header #user-controls #user-settings
 
 .widget-title {
 	align-items: center;
-	cursor: default;
 	display: flex;
 	padding-bottom: 10px;
 	border-bottom: solid 2px #293742;
@@ -302,7 +303,8 @@ footer {
 }
 
 #member-overview .image-section img {
-	border: solid 2px #fff;
+	border: solid 2px #BFCCD6;
+	border-radius: 5px;
 	height: auto;
 	width: 100%;
 }
