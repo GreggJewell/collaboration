@@ -1,0 +1,53 @@
+/* Gray scale colors */
+
+.color-gray5 { color: #BFCCD6; }
+.color-lt-gray { color: #F5F8FA; }
+
+.fill-gray5 { fill: #BFCCD6; }
+.fill-hover-lt-gray5:hover { fill: #F5F8FA; }
+.fill-hover-lt-gray5:hover path { fill: #F5F8FA; }
+
+
+.color-text-default:hover { color: #F5F8FA; }
+
+.color-text-default:hover { color: #F5F8FA; }
+
+.bgcolor-black { background-color: #10161A; }
+
+.bgcolor-darker { background-color: #293742; }
+.bgcolor-dark:hover { background-color: #202B33; }
+
+.bgcolor-content { background-color: #394B59; }
+.bgcolor-content-hover { background-color: #30404D; }
+
+/* Intent colors */
+
+.color-intent-primary { color: #48AFF0; }
+.color-intent-success { color: #3DCC91; }
+.color-intent-warning { color: #FFB366; }
+.color-intent-danger { color: #FF7373; }
+
+.bgcolor-intent-primary { background-color: #294f69; }
+.bgcolor-intent-success { background-color: #3DCC91; }
+.bgcolor-intent-warning { background-color: #FFB366; }
+.bgcolor-intent-danger { background-color: #FF7373; }
+
+.bgcolor-intent-primary-t { background-color: #48AFF0; }
+.bgcolor-intent-success-t { background-color: #285652; }
+.bgcolor-intent-warning-t { background-color: #5a5145; }
+.bgcolor-intent-danger-t { background-color: #5b3e48; }
+
+
+
+.fill-intent-primary { fill: #48AFF0; }
+.fill-intent-success { fill: #3DCC91; }
+.fill-intent-warning { fill: #FFB366; }
+.fill-intent-danger { fill: #FF7373; }
+
+/* Extended colors */
+
+.color-gold { color: #FFC940; }
+.bgcolor-gold { background-color: #FFC940; }
+.fill-gold { color: #FFC940; }
+
+.bgcolor-banner { background-color: #fbe919; } /* For classification banners */

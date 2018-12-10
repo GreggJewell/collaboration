@@ -1,0 +1,87 @@
+.flex-center {
+	align-items: center;
+	display: flex;
+}
+
+.margin-right5 {
+	margin: 0 5px 0 0;
+}
+.margin-right8 {
+	margin: 0 8px 0 0;
+}
+.margin-right10 {
+	margin: 0 10px 0 0;
+}
+
+.icon {
+	align-items: center;
+	display: flex;
+}
+
+.icon-small {
+	height: 16px;
+	width: 16px;
+}
+
+.icon-medium {
+	height: 20px;
+	width: 20px;
+}
+
+.icon-large {
+	height: 24px;
+	width: 24px;
+}
+
+.icon-1818 {
+	align-items: center;
+	display: flex;
+	height: 18px;
+	width: 18px;
+}
+
+.icon-2020 {
+	align-items: center;
+	display: flex;
+	height: 20px;
+	width: 20px;
+}
+
+/* Text Alignment */
+
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+
+/* Element sizes */
+
+.h10 { height: 10% }
+.h20 { height: 20% }
+.h30 { height: 30% }
+.h40 { height: 40% }
+.h50 { height: 50% }
+.h60 { height: 60% }
+.h70 { height: 70% }
+.h80 { height: 80% }
+.h90 { height: 90% }
+.h100 { height: 100% }
+
+.w10 { width: 10% }
+.w20 { width: 20% }
+.w30 { width: 30% }
+.w40 { width: 40% }
+.w50 { width: 50% }
+.w60 { width: 60% }
+.w70 { width: 70% }
+.w80 { width: 80% }
+.w90 { width: 90% }
+.w100 { width: 100% }
+
+.cross {
+	cursor: pointer;
+	//padding: 10px;
+}
+
+.cross:hover {
+	//background-color: rgba(255,255,255,0.1);
+}

@@ -1,0 +1,54 @@
+.msg-intent-primary {
+	align-items: center;
+	background-color: #294f69;
+	color: #F5F8FA;
+	display: flex;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+.msg-intent-primary svg path { fill: #48AFF0; }
+
+.msg-intent-success {
+	align-items: center;
+	background-color: #285652;
+	color: #3DCC91;
+	display: flex;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+.msg-intent-success svg path { fill: #3DCC91; }
+
+.msg-intent-warning {
+	align-items: center;
+	background-color: #5a5145;
+	color: #FFB366;
+	display: flex;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+.msg-intent-warning svg path { fill: #FFB366; }
+
+.msg-intent-danger {
+	align-items: center;
+	background-color: #5b3e48;
+	color: #FF7373;
+	display: flex;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+.msg-intent-danger svg path { fill: #FF7373; }
+
+.msg-intent-nights {
+	align-items: center;
+	background-color: #483e5e;
+	color: #c274c2;
+	display: flex;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+.msg-intent-nights svg path { fill: #c274c2; }
